@@ -10,9 +10,9 @@ char ground[groundHeight][groundWidth];
 
 class Food
 {
-    int x, y;
-
     public:
+        int x, y;
+
         void generateFood(Snake s)
         {
             x = rand() % groundHeight;
@@ -24,6 +24,8 @@ class Food
             }
         }
 };
+
+Food f;
 
 enum Direction
 {
@@ -38,14 +40,17 @@ struct coordinate
 
 class Snake
 {
-    
-    Direction currentDirection;
-    int score, length;
-    position body[groundHeight * groundWidth];
-
     public:
+        Direction currentDirection;
+        int score, length;
+        position body[groundHeight * groundWidth];
+
         void move()
         {
+
+            setCurPos(body[0].x, body[0].y);
+            std::cout << '*';
+
             switch(currentDirection)
             {
                 case UP: body[0].x--; break;
@@ -54,15 +59,24 @@ class Snake
                 case RIGHT: body[0].x++; break;
             }
 
+            setCurPos(body[0].x, body[0].y);
+            std::cout << '{';
+
+            if(!this->ifFood())
+            {
+                setCurPos(body[length].x, body[length].y);
+                std::cout << ' ';
+            }
             
         }
 
         bool ifFood()
         {
-            if(foodX == headX && foodY == headY)
+            if(body[0].x == f.x && body[0].y == f.y)
             {
-                foodX = foodY = 0;
+                f.generateFood(nagini);
                 score++;
+                length++;
                 return true;
             }
 
@@ -70,25 +84,24 @@ class Snake
         }
 };
 
+Snake nagini;
+
 int main()
 {
     int i = 0;
     system("clear");
-    for(i = 0; i < 100; i++)
+    std::thread input(getInput);
+    do
     {
-        std::cout << "Heelo a" << std::endl;
-
-        if(i % 5 == 0)
-        {
-            
-            setCurPos(i, 0);
-            SetPhysicalCursorPos(i, 0);
-        }
-    }
+        nagini.move();
+    }while(1);
     return 0;
 }
 
-void updateScreen()
+int getInput()
 {
-    
+    do
+    {
+        std::cin >> nagini.currentDirection;
+    }while(nagini.currentDirection != -1);
 }
