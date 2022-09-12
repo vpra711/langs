@@ -1,0 +1,15 @@
+D:\Documents\My Programs\C_Language\C#\Perfect_cs\bin\Debug\net6.0\Perfect_cs.exe
+D:\Documents\My Programs\C_Language\C#\Perfect_cs\bin\Debug\net6.0\Perfect_cs.deps.json
+D:\Documents\My Programs\C_Language\C#\Perfect_cs\bin\Debug\net6.0\Perfect_cs.runtimeconfig.json
+D:\Documents\My Programs\C_Language\C#\Perfect_cs\bin\Debug\net6.0\Perfect_cs.dll
+D:\Documents\My Programs\C_Language\C#\Perfect_cs\bin\Debug\net6.0\ref\Perfect_cs.dll
+D:\Documents\My Programs\C_Language\C#\Perfect_cs\bin\Debug\net6.0\Perfect_cs.pdb
+D:\Documents\My Programs\C_Language\C#\Perfect_cs\obj\Debug\net6.0\Perfect_cs.csproj.AssemblyReference.cache
+D:\Documents\My Programs\C_Language\C#\Perfect_cs\obj\Debug\net6.0\Perfect_cs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\My Programs\C_Language\C#\Perfect_cs\obj\Debug\net6.0\Perfect_cs.AssemblyInfoInputs.cache
+D:\Documents\My Programs\C_Language\C#\Perfect_cs\obj\Debug\net6.0\Perfect_cs.AssemblyInfo.cs
+D:\Documents\My Programs\C_Language\C#\Perfect_cs\obj\Debug\net6.0\Perfect_cs.csproj.CoreCompileInputs.cache
+D:\Documents\My Programs\C_Language\C#\Perfect_cs\obj\Debug\net6.0\Perfect_cs.dll
+D:\Documents\My Programs\C_Language\C#\Perfect_cs\obj\Debug\net6.0\ref\Perfect_cs.dll
+D:\Documents\My Programs\C_Language\C#\Perfect_cs\obj\Debug\net6.0\Perfect_cs.pdb
+D:\Documents\My Programs\C_Language\C#\Perfect_cs\obj\Debug\net6.0\Perfect_cs.genruntimeconfig.cache

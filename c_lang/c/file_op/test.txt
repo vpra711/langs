@@ -1,0 +1,17 @@
+modes :
+    r mode 
+    w mode - files erased while open
+    a mode
+    r+ mode - does not create new file
+    w+ mode - files erased while open
+    a+ mode
+
+functions : 
+    fseek() - moves the cursor to particular position
+    ftell() - gives the length from staring - current position
+    rewind() - moves cursor to the starting point
+
+keywords : 
+    SEEK_SET - indicates starting point
+    SEEK_CUR - indicates current position
+    SEEK_END - indicates ending point (or) EOF

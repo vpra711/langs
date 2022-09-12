@@ -1,0 +1,15 @@
+D:\my_programs\C_Language\C#\datatypes\bin\Debug\net6.0\datatypes.exe
+D:\my_programs\C_Language\C#\datatypes\bin\Debug\net6.0\datatypes.deps.json
+D:\my_programs\C_Language\C#\datatypes\bin\Debug\net6.0\datatypes.runtimeconfig.json
+D:\my_programs\C_Language\C#\datatypes\bin\Debug\net6.0\datatypes.dll
+D:\my_programs\C_Language\C#\datatypes\bin\Debug\net6.0\datatypes.pdb
+D:\my_programs\C_Language\C#\datatypes\obj\Debug\net6.0\datatypes.csproj.AssemblyReference.cache
+D:\my_programs\C_Language\C#\datatypes\obj\Debug\net6.0\datatypes.GeneratedMSBuildEditorConfig.editorconfig
+D:\my_programs\C_Language\C#\datatypes\obj\Debug\net6.0\datatypes.AssemblyInfoInputs.cache
+D:\my_programs\C_Language\C#\datatypes\obj\Debug\net6.0\datatypes.AssemblyInfo.cs
+D:\my_programs\C_Language\C#\datatypes\obj\Debug\net6.0\datatypes.csproj.CoreCompileInputs.cache
+D:\my_programs\C_Language\C#\datatypes\obj\Debug\net6.0\datatypes.dll
+D:\my_programs\C_Language\C#\datatypes\obj\Debug\net6.0\refint\datatypes.dll
+D:\my_programs\C_Language\C#\datatypes\obj\Debug\net6.0\datatypes.pdb
+D:\my_programs\C_Language\C#\datatypes\obj\Debug\net6.0\datatypes.genruntimeconfig.cache
+D:\my_programs\C_Language\C#\datatypes\obj\Debug\net6.0\ref\datatypes.dll

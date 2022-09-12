@@ -1,0 +1,15 @@
+D:\my_programs\c_lang\C#\screensaver\bin\Debug\net6.0\screensaver.exe
+D:\my_programs\c_lang\C#\screensaver\bin\Debug\net6.0\screensaver.deps.json
+D:\my_programs\c_lang\C#\screensaver\bin\Debug\net6.0\screensaver.runtimeconfig.json
+D:\my_programs\c_lang\C#\screensaver\bin\Debug\net6.0\screensaver.dll
+D:\my_programs\c_lang\C#\screensaver\bin\Debug\net6.0\screensaver.pdb
+D:\my_programs\c_lang\C#\screensaver\obj\Debug\net6.0\screensaver.csproj.AssemblyReference.cache
+D:\my_programs\c_lang\C#\screensaver\obj\Debug\net6.0\screensaver.GeneratedMSBuildEditorConfig.editorconfig
+D:\my_programs\c_lang\C#\screensaver\obj\Debug\net6.0\screensaver.AssemblyInfoInputs.cache
+D:\my_programs\c_lang\C#\screensaver\obj\Debug\net6.0\screensaver.AssemblyInfo.cs
+D:\my_programs\c_lang\C#\screensaver\obj\Debug\net6.0\screensaver.csproj.CoreCompileInputs.cache
+D:\my_programs\c_lang\C#\screensaver\obj\Debug\net6.0\screensaver.dll
+D:\my_programs\c_lang\C#\screensaver\obj\Debug\net6.0\refint\screensaver.dll
+D:\my_programs\c_lang\C#\screensaver\obj\Debug\net6.0\screensaver.pdb
+D:\my_programs\c_lang\C#\screensaver\obj\Debug\net6.0\screensaver.genruntimeconfig.cache
+D:\my_programs\c_lang\C#\screensaver\obj\Debug\net6.0\ref\screensaver.dll

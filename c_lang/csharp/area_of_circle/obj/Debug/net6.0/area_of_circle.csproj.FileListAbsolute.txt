@@ -1,0 +1,15 @@
+D:\my_programs\C_Language\C#\area_of_circle\bin\Debug\net6.0\area_of_circle.exe
+D:\my_programs\C_Language\C#\area_of_circle\bin\Debug\net6.0\area_of_circle.deps.json
+D:\my_programs\C_Language\C#\area_of_circle\bin\Debug\net6.0\area_of_circle.runtimeconfig.json
+D:\my_programs\C_Language\C#\area_of_circle\bin\Debug\net6.0\area_of_circle.dll
+D:\my_programs\C_Language\C#\area_of_circle\bin\Debug\net6.0\area_of_circle.pdb
+D:\my_programs\C_Language\C#\area_of_circle\obj\Debug\net6.0\area_of_circle.csproj.AssemblyReference.cache
+D:\my_programs\C_Language\C#\area_of_circle\obj\Debug\net6.0\area_of_circle.GeneratedMSBuildEditorConfig.editorconfig
+D:\my_programs\C_Language\C#\area_of_circle\obj\Debug\net6.0\area_of_circle.AssemblyInfoInputs.cache
+D:\my_programs\C_Language\C#\area_of_circle\obj\Debug\net6.0\area_of_circle.AssemblyInfo.cs
+D:\my_programs\C_Language\C#\area_of_circle\obj\Debug\net6.0\area_of_circle.csproj.CoreCompileInputs.cache
+D:\my_programs\C_Language\C#\area_of_circle\obj\Debug\net6.0\area_of_circle.dll
+D:\my_programs\C_Language\C#\area_of_circle\obj\Debug\net6.0\refint\area_of_circle.dll
+D:\my_programs\C_Language\C#\area_of_circle\obj\Debug\net6.0\area_of_circle.pdb
+D:\my_programs\C_Language\C#\area_of_circle\obj\Debug\net6.0\area_of_circle.genruntimeconfig.cache
+D:\my_programs\C_Language\C#\area_of_circle\obj\Debug\net6.0\ref\area_of_circle.dll

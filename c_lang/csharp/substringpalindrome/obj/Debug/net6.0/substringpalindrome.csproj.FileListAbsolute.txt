@@ -1,0 +1,15 @@
+D:\Documents\My Programs\C_Language\C#\substringpalindrome\obj\Debug\net6.0\substringpalindrome.csproj.AssemblyReference.cache
+D:\Documents\My Programs\C_Language\C#\substringpalindrome\obj\Debug\net6.0\substringpalindrome.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\My Programs\C_Language\C#\substringpalindrome\obj\Debug\net6.0\substringpalindrome.AssemblyInfoInputs.cache
+D:\Documents\My Programs\C_Language\C#\substringpalindrome\obj\Debug\net6.0\substringpalindrome.AssemblyInfo.cs
+D:\Documents\My Programs\C_Language\C#\substringpalindrome\obj\Debug\net6.0\substringpalindrome.csproj.CoreCompileInputs.cache
+D:\Documents\My Programs\C_Language\C#\substringpalindrome\bin\Debug\net6.0\substringpalindrome.exe
+D:\Documents\My Programs\C_Language\C#\substringpalindrome\bin\Debug\net6.0\substringpalindrome.deps.json
+D:\Documents\My Programs\C_Language\C#\substringpalindrome\bin\Debug\net6.0\substringpalindrome.runtimeconfig.json
+D:\Documents\My Programs\C_Language\C#\substringpalindrome\bin\Debug\net6.0\substringpalindrome.dll
+D:\Documents\My Programs\C_Language\C#\substringpalindrome\bin\Debug\net6.0\ref\substringpalindrome.dll
+D:\Documents\My Programs\C_Language\C#\substringpalindrome\bin\Debug\net6.0\substringpalindrome.pdb
+D:\Documents\My Programs\C_Language\C#\substringpalindrome\obj\Debug\net6.0\substringpalindrome.dll
+D:\Documents\My Programs\C_Language\C#\substringpalindrome\obj\Debug\net6.0\ref\substringpalindrome.dll
+D:\Documents\My Programs\C_Language\C#\substringpalindrome\obj\Debug\net6.0\substringpalindrome.pdb
+D:\Documents\My Programs\C_Language\C#\substringpalindrome\obj\Debug\net6.0\substringpalindrome.genruntimeconfig.cache

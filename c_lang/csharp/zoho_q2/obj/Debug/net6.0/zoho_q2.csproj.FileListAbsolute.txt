@@ -1,0 +1,15 @@
+D:\my_programs\c_lang\C#\zoho_q2\bin\Debug\net6.0\zoho_q2.exe
+D:\my_programs\c_lang\C#\zoho_q2\bin\Debug\net6.0\zoho_q2.deps.json
+D:\my_programs\c_lang\C#\zoho_q2\bin\Debug\net6.0\zoho_q2.runtimeconfig.json
+D:\my_programs\c_lang\C#\zoho_q2\bin\Debug\net6.0\zoho_q2.dll
+D:\my_programs\c_lang\C#\zoho_q2\bin\Debug\net6.0\zoho_q2.pdb
+D:\my_programs\c_lang\C#\zoho_q2\obj\Debug\net6.0\zoho_q2.csproj.AssemblyReference.cache
+D:\my_programs\c_lang\C#\zoho_q2\obj\Debug\net6.0\zoho_q2.GeneratedMSBuildEditorConfig.editorconfig
+D:\my_programs\c_lang\C#\zoho_q2\obj\Debug\net6.0\zoho_q2.AssemblyInfoInputs.cache
+D:\my_programs\c_lang\C#\zoho_q2\obj\Debug\net6.0\zoho_q2.AssemblyInfo.cs
+D:\my_programs\c_lang\C#\zoho_q2\obj\Debug\net6.0\zoho_q2.csproj.CoreCompileInputs.cache
+D:\my_programs\c_lang\C#\zoho_q2\obj\Debug\net6.0\zoho_q2.dll
+D:\my_programs\c_lang\C#\zoho_q2\obj\Debug\net6.0\refint\zoho_q2.dll
+D:\my_programs\c_lang\C#\zoho_q2\obj\Debug\net6.0\zoho_q2.pdb
+D:\my_programs\c_lang\C#\zoho_q2\obj\Debug\net6.0\zoho_q2.genruntimeconfig.cache
+D:\my_programs\c_lang\C#\zoho_q2\obj\Debug\net6.0\ref\zoho_q2.dll

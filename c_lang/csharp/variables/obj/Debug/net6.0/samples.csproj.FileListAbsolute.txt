@@ -1,0 +1,15 @@
+D:\Documents\My Programs\C Language\C#\variables\obj\Debug\net6.0\samples.csproj.AssemblyReference.cache
+D:\Documents\My Programs\C Language\C#\variables\obj\Debug\net6.0\samples.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\My Programs\C Language\C#\variables\obj\Debug\net6.0\samples.AssemblyInfoInputs.cache
+D:\Documents\My Programs\C Language\C#\variables\obj\Debug\net6.0\samples.AssemblyInfo.cs
+D:\Documents\My Programs\C Language\C#\variables\obj\Debug\net6.0\samples.csproj.CoreCompileInputs.cache
+D:\Documents\My Programs\C Language\C#\variables\bin\Debug\net6.0\samples.exe
+D:\Documents\My Programs\C Language\C#\variables\bin\Debug\net6.0\samples.deps.json
+D:\Documents\My Programs\C Language\C#\variables\bin\Debug\net6.0\samples.runtimeconfig.json
+D:\Documents\My Programs\C Language\C#\variables\bin\Debug\net6.0\samples.dll
+D:\Documents\My Programs\C Language\C#\variables\bin\Debug\net6.0\ref\samples.dll
+D:\Documents\My Programs\C Language\C#\variables\bin\Debug\net6.0\samples.pdb
+D:\Documents\My Programs\C Language\C#\variables\obj\Debug\net6.0\samples.dll
+D:\Documents\My Programs\C Language\C#\variables\obj\Debug\net6.0\ref\samples.dll
+D:\Documents\My Programs\C Language\C#\variables\obj\Debug\net6.0\samples.pdb
+D:\Documents\My Programs\C Language\C#\variables\obj\Debug\net6.0\samples.genruntimeconfig.cache

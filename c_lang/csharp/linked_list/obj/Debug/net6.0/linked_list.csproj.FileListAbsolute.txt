@@ -1,0 +1,15 @@
+D:\Documents\My Programs\C_Language\C#\linked_list\obj\Debug\net6.0\linked_list.csproj.AssemblyReference.cache
+D:\Documents\My Programs\C_Language\C#\linked_list\obj\Debug\net6.0\linked_list.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\My Programs\C_Language\C#\linked_list\obj\Debug\net6.0\linked_list.AssemblyInfoInputs.cache
+D:\Documents\My Programs\C_Language\C#\linked_list\obj\Debug\net6.0\linked_list.AssemblyInfo.cs
+D:\Documents\My Programs\C_Language\C#\linked_list\obj\Debug\net6.0\linked_list.csproj.CoreCompileInputs.cache
+D:\Documents\My Programs\C_Language\C#\linked_list\bin\Debug\net6.0\linked_list.exe
+D:\Documents\My Programs\C_Language\C#\linked_list\bin\Debug\net6.0\linked_list.deps.json
+D:\Documents\My Programs\C_Language\C#\linked_list\bin\Debug\net6.0\linked_list.runtimeconfig.json
+D:\Documents\My Programs\C_Language\C#\linked_list\bin\Debug\net6.0\linked_list.dll
+D:\Documents\My Programs\C_Language\C#\linked_list\bin\Debug\net6.0\ref\linked_list.dll
+D:\Documents\My Programs\C_Language\C#\linked_list\bin\Debug\net6.0\linked_list.pdb
+D:\Documents\My Programs\C_Language\C#\linked_list\obj\Debug\net6.0\linked_list.dll
+D:\Documents\My Programs\C_Language\C#\linked_list\obj\Debug\net6.0\ref\linked_list.dll
+D:\Documents\My Programs\C_Language\C#\linked_list\obj\Debug\net6.0\linked_list.pdb
+D:\Documents\My Programs\C_Language\C#\linked_list\obj\Debug\net6.0\linked_list.genruntimeconfig.cache
