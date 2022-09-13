@@ -78,13 +78,3 @@ void genParenthesis(std::string st, int len)
     genParenthesis(st + "(", len-1);
     genParenthesis(st + ")", len-1);
 }
-
-void checkBalanced(std::string input)
-{
-    int openParenthesis = 0;
-    int closedParenthesis = 0;
-
-    int i = 0;
-
-    for(i = 0; )
-}
