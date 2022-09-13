@@ -27,11 +27,6 @@ class Food
 
 Food f;
 
-enum Direction
-{
-    UP = 'w', LEFT = 'a', DOWN = 's', RIGHT = 'd'
-};
-
 using position = struct coordinate;
 struct coordinate
 {
@@ -41,7 +36,7 @@ struct coordinate
 class Snake
 {
     public:
-        Direction currentDirection;
+        char direction;
         int score, length;
         position body[groundHeight * groundWidth];
 
@@ -51,12 +46,12 @@ class Snake
             setCurPos(body[0].x, body[0].y);
             std::cout << '*';
 
-            switch(currentDirection)
+            switch(direction)
             {
-                case UP: body[0].x--; break;
-                case LEFT: body[0].y--; break;
-                case DOWN: body[0].y++; break;
-                case RIGHT: body[0].x++; break;
+                case 'w': body[0].x--; break;
+                case 'a': body[0].y--; break;
+                case 's': body[0].y++; break;
+                case 'd': body[0].x++; break;
             }
 
             setCurPos(body[0].x, body[0].y);
@@ -94,14 +89,15 @@ int main()
     do
     {
         nagini.move();
-    }while(1);
+    }while(nagini.direction != 'e');
+    
     return 0;
 }
 
-int getInput()
+void getInput()
 {
     do
     {
-        std::cin >> nagini.currentDirection;
-    }while(nagini.currentDirection != -1);
+        std::cin >> nagini.direction;
+    }while(nagini.direction != 'e');
 }
