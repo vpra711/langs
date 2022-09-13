@@ -1,4 +1,5 @@
 #include <iostream>
+#include <conio.h>
 #include <thread>
 #include <Windows.h>
 
@@ -6,8 +7,8 @@
 
 using position = struct coordinate;
 
-const int groundHeight = 30;
-const int groundWidth = 20;
+const int groundHeight = 70;
+const int groundWidth = 10;
 char ground[groundHeight][groundWidth];
 
 struct coordinate
@@ -41,7 +42,6 @@ class Snake
 
         void move(Food &f)
         {
-
             setCurPos(body[0].x, body[0].y);
             std::cout << '*';
 
@@ -61,7 +61,6 @@ class Snake
                 setCurPos(body[length].x, body[length].y);
                 std::cout << ' ';
             }
-            
         }
 
         bool ifFood(Food &f)
@@ -80,6 +79,7 @@ class Snake
 
 void getInput();
 void startGame();
+bool checkOppositeDirection(char input, char direction);
 
 Food f;
 Snake nagini;
@@ -88,14 +88,12 @@ int main()
 {
     int i = 0, j = 0;
     system("clear");
-    std::thread input(getInput);
-    std::thread game(startGame);
 
-    for(i = 0; i <= groundHeight; i++)
+    for(i = 0; i <= groundWidth; i++)
     {
-        for(j = 0; j <= groundWidth; j++)
+        for(j = 0; j <= groundHeight; j++)
         {
-            if(i == 0 || j == 0 || i == groundHeight || j == groundWidth)
+            if(i == 0 || j == 0 || i == groundWidth || j == groundHeight)
             {
                 std::cout << '*';
             }
@@ -107,17 +105,43 @@ int main()
         std::cout << '\n';
     }
 
+    nagini.length = 1;
+
+    std::thread input(getInput);
+    std::thread game(startGame);
+    
+    input.join();
+    game.join();
+
     return 0;
 }
 
 void getInput()
 {
+    char input;
+
     do
     {
-        std::cin >> nagini.direction;
-        std::cout << nagini.direction;
+        input = getch();
+
+        if(!checkOppositeDirection(input, nagini.direction))
+            nagini.direction = input;
+
     }while(nagini.direction != 'e');
 }
+
+bool checkOppositeDirection(char input, char direction)
+{
+    bool state;
+
+    if((input == 'w' && direction == 's') || (input == 's' && direction == 'w'))
+        state = true;
+    else if((input == 'a' && direction == 'd') || (input == 'd' && direction == 'a'))
+        state = true;
+
+    return state;
+}
+
 
 void startGame()
 {
@@ -129,7 +153,5 @@ void startGame()
     do
     {
         std::cout << nagini.direction;
-        system("sleep 1");
-
-    }while(1);
+    }while(nagini.direction != 'e');
 }
