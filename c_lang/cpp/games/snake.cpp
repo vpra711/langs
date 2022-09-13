@@ -105,7 +105,9 @@ int main()
         std::cout << '\n';
     }
 
+    nagini.direction = 'd';
     nagini.length = 1;
+    nagini.score = 0;
 
     std::thread input(getInput);
     std::thread game(startGame);
