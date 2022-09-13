@@ -144,7 +144,6 @@ bool checkOppositeDirection(char input, char direction)
     return state;
 }
 
-
 void startGame()
 {
     // do
