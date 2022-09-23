@@ -1,8 +1,14 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main()
+int main()
 {
-    printf("%d", 2+4);
-    getch();
+    int a = 4;
+    int b = 2;
+    printf("%d", a + b);
+    printf("%d", a - b);
+    printf("%d", a * b);
+    printf("%d", a / b);
+    printf("%d", a % b);
+    return 0;
 }
