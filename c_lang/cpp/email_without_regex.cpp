@@ -1,3 +1,17 @@
+/*
+checks whether the email valid or not. if valid print True otherwise print false
+This program contains a flaw (input: a....@....a)
+
+input:                                                          example:
+(int) no of emails                                              2
+(string) array of emails                                        abc@abc.com
+                                                                abc@abc
+
+output:                                                             
+(string) True or False in separate lines                        True
+                                                                False
+*/
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -38,11 +52,16 @@ int main()
 
 bool isValidEmail(std::string email)
 {
-    int i = 0, count = 0;
+    int i = 0, count = 0, length = email.length();
     std::string firstPart;
     std::string secondPart;
 
-    for(i = 1; i < email.length(); i++)
+    if(email[0] == '.' || email[length-1] == '.')
+    {
+        return false;
+    }
+
+    for(i = 1; i < length; i++)
     {
         if(isValidChar(email[i]))
         {

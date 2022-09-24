@@ -1,3 +1,15 @@
+/*
+calculate how many two wheelers and four wheelers
+
+inputs:                                                            examples:
+(int) : no of total vechicles                                               200
+(int) : total no of wheels                                                  540
+
+output:
+firstline(int) : no of two wheelers                                         130
+secondline(int): no of four wheelers                                        70
+*/
+
 #include <iostream>
 
 int main()

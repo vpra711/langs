@@ -1,17 +1,16 @@
 #include <iostream>
-
-int aasd()
-{
-    int i = 1;
-    while(i++)
-    {
-        std::cout << i << "\n";
-    }
-}
+#include <unordered_map>
 
 int main()
 {
-    int a = aasd();
-    std::cout << a;
+    std::unordered_map<std::string, int> mp;
+
+    mp["heelo"] = 1;
+    mp["heelo"]++;
+
+    if(mp.contains("heelo"))
+    {
+        std::cout << mp["heelo"];
+    }
     return 0;
 }
