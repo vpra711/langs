@@ -1,4 +1,5 @@
-// find 4 elements which adds to input x
+/* find 4 elements which adds to input x
+*/
 
 #include <iostream>
 #include <vector>
