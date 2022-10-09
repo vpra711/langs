@@ -1,14 +1,17 @@
 #include <stdio.h>
-#include <conio.h>
 
 int main()
 {
-    int a = 4;
-    int b = 2;
-    printf("%d", a + b);
-    printf("%d", a - b);
-    printf("%d", a * b);
-    printf("%d", a / b);
-    printf("%d", a % b);
+    int x, y;
+
+    for(x = 0; x < 100; x++)
+    {
+        for(y = 0; y < 20; y++)
+        {
+            printf("*");
+        }
+
+        printf("\n");
+    }
     return 0;
 }
