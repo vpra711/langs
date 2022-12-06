@@ -1,5 +1,12 @@
 *fingerprint*
 *credential*
+
+# ignore csharp
+*.csproj
+obj/
+bin/
+
+# ignore rust
 build/
 deps/
 examples/
