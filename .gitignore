@@ -1,6 +1,6 @@
 *fingerprint*
 *credential*
-
+*setting*
 # ignore csharp
 *.csproj
 obj/
