@@ -1,4 +1,6 @@
 use std::{io};
+mod games;
+use crate::games::game::Details;
 
 struct shape
 {
@@ -23,7 +25,7 @@ fn main()
     //vectors();
     //enums();
     //structs();
-    
+    mods();
 }
 
 fn io_ops()
@@ -184,4 +186,19 @@ impl allShapes for shape // implementation of trait allShapes to struct shape
     {
         return self.length;
     }
+}
+
+fn mods()
+{
+    let game_name: String = "God of War".to_string();
+    let players: i32 = 1;
+    let difficulty: String = "god of war".to_string();
+    let mut game1: Details = Details::new(game_name, players, difficulty);
+
+    game1.change_difficulty("Normal");
+    println!("{}", game1.get_difficult());
+
+    game1.change_difficulty("God of war");
+    println!("{}", game1.get_difficult());
+
 }
