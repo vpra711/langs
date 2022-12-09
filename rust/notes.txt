@@ -1,0 +1,24 @@
+rust using concept called borrowing - memory management
+
+by default variables cannot be modified
+
+the symbol "!" indicates that, it is a macro function (or) macro thing
+
+has main function where the program begins and end
+
+flow operations - match, if, if let, loop, for, while, while let 
+
+underscore symbol "_" indicates all
+
+use "as" keyword for type casting
+
+has pointers(*) and references(&)
+
+has "some()" and "None", some means there is something in that memory space, None means nothing in a memory space
+
+collections - array, tuple, vectors, hashmaps and etc..,
+
+doesn't has class but contains struct, enums
+
+trait is used to bind functions with structs (kind of methods) but trait can be used by more than one structs (if matches)
+

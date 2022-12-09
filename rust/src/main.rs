@@ -1,10 +1,29 @@
 use std::{io};
+
+struct shape
+{
+    area: f32,
+    length: f32
+}
+
+trait allShapes
+{
+    fn new(area: f32, length: f32) -> Self;
+    fn getArea(&self) -> f32;
+    fn getLength(&self) -> f32;
+}
+
 fn main() 
 {
     //io_ops();
     //datatypes();
     //condition_ops();
-    arrays_loops();
+    //arrays_loops();
+    //tuples();
+    //vectors();
+    //enums();
+    //structs();
+    
 }
 
 fn io_ops()
@@ -76,5 +95,93 @@ fn arrays_loops()
     for i in arr.iter()
     {
         println!("{}", i);
+    }
+}
+
+fn tuples()
+{
+    let mut tup : (i32, String, f32) = (12, "heelo".to_string(), 3.45);
+    
+    println!("{}{}", tup.0, tup.1);
+}
+
+fn vectors()
+{
+    let str : String = String::from("a b c e d g w ");
+
+    let mut vector : Vec<char> = str.chars().collect();
+
+    vector.sort();
+    vector.dedup();
+
+    for i in vector
+    {
+        println!("{}", i);
+    }
+
+    let vec2 = vec![1, 2, 3, 4];
+    let vec3: Vec<String> = Vec::new();
+}
+
+fn enums()
+{
+    enum Days
+    {
+        Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+    }
+
+    impl Days
+    {
+        fn isWorkDay(&self) -> bool
+        {
+            match self
+            {
+                Days::Saturday | Days::Sunday => false,
+                _ => true
+            }
+        }    
+    }
+
+    let day: Days = Days::Monday;
+
+    println!("{}", day.isWorkDay());
+}
+
+fn ownership()
+{
+    let str1: String = String::from("Heeki");
+
+    //let str2: String = str1; str2 borrowed from str1.
+
+    let str2: String = str1.clone(); //just copy
+
+    println!("{}{}", str1, str2);
+}
+
+fn structs()
+{
+    let rec: shape = shape::new(12.34, 34.21);
+
+    println!("{}", rec.getArea());
+    println!("{}", rec.getLength());
+
+}
+
+impl allShapes for shape // implementation of trait allShapes to struct shape
+{
+
+    fn new(area: f32, length: f32) -> shape
+    {
+        return shape { area, length};
+    }
+
+    fn getArea(&self) -> f32 
+    {
+        return self.area;
+    }
+
+    fn getLength(&self) -> f32 
+    {
+        return self.length;
     }
 }
