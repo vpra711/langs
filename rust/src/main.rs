@@ -1,4 +1,4 @@
-use std::{io};
+use std::{io, thread, time::Duration};
 mod games;
 use crate::games::game::Details;
 
@@ -25,7 +25,10 @@ fn main()
     //vectors();
     //enums();
     //structs();
-    mods();
+    //mods();
+    //auto_functions();
+    //pointers();
+    //threads();    
 }
 
 fn io_ops()
@@ -202,3 +205,103 @@ fn mods()
     println!("{}", game1.get_difficult());
 
 }
+
+fn auto_functions()
+{
+
+    //closures
+    //can access outside variables
+    //can pass to functions
+
+    let closure = |no: i32|
+    {
+        return no > 20;
+    };
+
+    println!("result: {}", closure(23));
+
+    fn fun<T>(a: i32, b: i32, func: T) -> i32
+    where T: Fn(i32, i32) -> i32
+    {
+        func(a, b)
+    }
+
+    let mul = |a: i32, b: i32| -> i32 {return a * b};
+
+    println!("mul of 15 and 23 is: {}", fun(15, 23, mul));
+}
+
+fn pointers()
+{
+    //box pointers
+
+    struct Node
+    {
+        pub data: i32,
+        pub next: Box<Node>
+    }
+
+    // impl Node
+    // {
+    //     pub fn new(data: i32) -> Self
+    //     {
+    //         return Node {data: data, next: Box::new(None)}
+    //     }
+
+    //     pub fn Next(mut self, node: Node) -> Self
+    //     {
+    //         self.next = Box::new(node);
+    //         return self
+    //     }
+    // }
+
+    // let mut list = Node::new(12).Next(Node::new(23));
+
+    // println!("first in list: {}", list.data);
+
+    // list = list.next;
+
+    // println!("second in list: {}", list.;
+
+
+
+}
+
+fn threads()
+{
+    //threads
+
+    let thread1Handler = thread::spawn(||
+    {
+        for i in 1..20
+        {
+            println!("t1 thread: {}", i);
+            thread::sleep(Duration::from_millis(1));
+        }
+    });
+
+    for i in 1..20
+    {
+        println!("main thread: {}", i);
+        thread::sleep(Duration::from_millis(1));
+    }
+
+    thread1Handler.join();
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

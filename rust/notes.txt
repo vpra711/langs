@@ -21,4 +21,9 @@ collections - array, tuple, vectors, hashmaps and etc..,
 doesn't has class but contains struct, enums
 
 trait is used to bind functions with structs (kind of methods) but trait can be used by more than one structs (if matches)
+trait aka interface
+
+closure is a function without a name
+closure aka autonomous functions
+
 
