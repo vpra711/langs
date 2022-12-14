@@ -23,7 +23,7 @@ func main() {
 	//times()
 	//controlflow()
 	//guessgame()
-	
+	arrays()
 }
 
 func io_ops() {
@@ -158,3 +158,49 @@ func guessgame(){
 	}
 }
 
+func arrays(){
+
+	var arr [5]int
+
+	print()
+	for i := range arr{
+		arr[i] = i + 10
+	}
+
+	print()
+	for i, val := range arr{
+		print(i, val)
+	}
+
+	print()
+	arr2 := []int{6, 7, 8, 9, 12}
+
+	for i, val := range arr2{
+		print(i, val)
+	}
+
+	arr3 := [][]int{ {1, 2, 3}, {4, 5, 6} }
+
+	print("\nmodern for loop")
+	for _, val := range arr3{
+		for j, val2 := range val{
+			print(j, val2)
+		}
+	}
+
+	print("\nc-like for loop")
+	for i := 0; i < 2; i++{
+		for j := 0; j < 3; j++{
+			print(arr3[i][j])
+		}
+	}
+
+	str := "heelo"
+
+	runeArray := []rune(str)
+
+	for _, val := range runeArray{
+		print(val)
+	}
+
+}
