@@ -55,7 +55,6 @@ fn datatypes()
     println!("f64 \nmin: {} \nmax: {}", f64::MIN, f64::MAX);
 
     println!("chars, strings, booleans, arrays, tuple and etc");
-
 }
 
 fn condition_ops()
@@ -289,19 +288,3 @@ fn threads()
     thread1Handler.join();
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

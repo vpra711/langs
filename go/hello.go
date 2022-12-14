@@ -2,8 +2,9 @@ package main
 
 import (
 	"bufio"
-	"math/rand"
 	"fmt"
+	"log"
+	"math/rand"
 	"os"
 	"reflect"
 	"strconv"
@@ -23,7 +24,12 @@ func main() {
 	//times()
 	//controlflow()
 	//guessgame()
-	arrays()
+	//arrays()
+	//print(add(2, 3))
+	//print(multiplereturns(6))
+	//pointers()
+	file_ops()
+
 }
 
 func io_ops() {
@@ -203,4 +209,69 @@ func arrays(){
 		print(val)
 	}
 
+	print(arrays1(arr2...))
+
 }
+
+func arrays1(arr ...int) int{
+
+	sum := 0
+
+	for _, val := range arr{
+		sum += val
+	}
+
+	return sum
+}
+
+func add(x int, y int) int{
+
+	return x + y
+}
+
+func multiplereturns(x int) (int, int){
+
+	return x, x + 1
+}
+
+func pointers(){
+
+	var ptr *int
+
+	val := 4;
+	ptr = &val
+	*ptr = 20
+
+	print(val)
+}
+
+func file_ops(){
+
+	file, err := os.Create("heelo.txt")
+
+	if(err != nil){
+		log.Fatal(err)
+	}
+
+	file.WriteString("heelo file")
+	file.Close()
+	file, err = os.Open("heelo.txt")
+
+	if(err != nil){
+		log.Fatal(err)
+	}
+
+	scan := bufio.NewScanner(file)
+
+	for scan.Scan(){
+		print(scan.Text())
+	}
+
+	str := os.Environ()
+
+	for _, val := range str{
+		print(val)
+	}
+
+}
+

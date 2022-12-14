@@ -1,2 +1,4 @@
-characters = runes
+characters = rune
+
+package name should be in lowercase
 
