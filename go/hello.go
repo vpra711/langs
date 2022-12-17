@@ -11,6 +11,9 @@ import (
 	"strings"
 	"time"
 	"unicode/utf8"
+
+	own "hello/package"
+
 )
 
 var print = fmt.Println //alias
@@ -28,7 +31,22 @@ func main() {
 	//print(add(2, 3))
 	//print(multiplereturns(6))
 	//pointers()
-	file_ops()
+	//file_ops()
+	//packag()
+	//datastrc_maps()
+
+	//generics
+	//print(addGen(5, 6))
+
+	//structs
+	// s := student{"vpra", 2002, "R&D"}
+	// printStudent(s)
+
+	//getter and setter
+	//getset()
+	
+	//closure()
+
 
 }
 
@@ -275,3 +293,68 @@ func file_ops(){
 
 }
 
+func packag(){
+
+	str := own.IntToStr([]int{1, 2, 3, 4, 5})
+	print(reflect.TypeOf(str))
+	print(str)
+}
+
+func datastrc_maps(){
+
+	someMap := make(map[int]string)
+
+	someMap[1] = "one"
+	someMap[3] = "three"
+	someMap[0] = "zero"
+
+	for k, v := range someMap{
+
+		print(k, v)
+	}
+	delete(someMap, 3)
+}
+
+// generics
+type constraint1 interface{
+	int | float64
+}
+
+func addGen[T constraint1](x T, y T) T{
+	return x + y
+}
+
+// structs
+type student struct{
+
+	name string
+	regNo int
+	field string
+}
+
+func printStudent(s student){
+
+	print(s.name)
+	print(s.regNo)
+	print(s.field)
+}
+
+func getset(){
+
+	p := own.Player{}
+
+	p.SetName("vpra")
+	p.SetScore(0)
+	p.SetLevel(0)
+
+	print(p.GetName())
+	print(p.GetScore())
+	print(p.GetLevel())
+}
+
+func closure(){
+	
+	closureAdd := func(x int, y int) int {return x + y}
+
+	print(closureAdd(1, 2))
+}
