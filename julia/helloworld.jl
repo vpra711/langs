@@ -1,6 +1,14 @@
-for i in 1:5 
-    for j in 1:i 
-        print(i, " ")
-    end
-    println() 
+struct human
+    name::String
+    id::Int
 end
+
+function fun(a::String, b::Int)
+    return human(a, b)
+    
+end
+
+a = fun("vpra", 5)
+
+println(a.id)
+println(a.name)
