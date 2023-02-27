@@ -2,8 +2,6 @@ c cpp csharp rust go java
 
 python julia fsharp ts
 
-asp.net blazor 
-
 sql
 
 html xml json yaml
