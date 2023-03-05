@@ -1,14 +1,29 @@
+import Base.+
+
 struct human
     name::String
-    id::Int
+    id::Int32
 end
 
 function fun(a::String, b::Int)
-    return human(a, b)
-    
+    return human(a, b) 
 end
 
-a = fun("vpra", 5)
+function +(first::String, second::String)
+    return join(first, second)
+end
 
-println(a.id)
-println(a.name)
+function +(first::human, second::human)
+    name::String = first.name + second.name
+    id::Int32 = first.id + second.id
+    return human(name, id)
+end
+
+a = human("vpra", 5)
+b = human("2", 10)
+
+c = a + b
+
+println(c)
+
+    
