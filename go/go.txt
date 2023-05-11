@@ -1,7 +1,0 @@
-characters = rune
-
-package name should be in lowercase
-public - starts with uppercase letter
-private - starts with lowercase letter
-
-keyword "type" is used to declare types
