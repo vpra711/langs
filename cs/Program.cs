@@ -1,6 +1,4 @@
-﻿using cs.Sorting;
-
-namespace cs
+﻿namespace cs
 {
     internal class Program
     {
