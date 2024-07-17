@@ -3,9 +3,10 @@
 
 int main()
 {
-    std::array<int, 9> arr = { 1, 3, 5, 5, 5, 5, 67, 123, 125 }; 
+	const int noOfElements = 8;
+    std::array<int, noOfElements + 1> arr = { 1, 3, 5, 5, 5, 5, 67, 123, 125 };
     int n = 5;
-    int start = 0, mid = 0, end = 8;
+    int start = 0, mid = 0, end = noOfElements;
     int firstOccurence = -1, lastOccurence = -1;
 
     while(start <= end)
@@ -27,7 +28,7 @@ int main()
         }
     }
 
-    start = 0, mid = 0, end = 8;
+    start = 0, mid = 0, end = noOfElements;
 
     while(start <= end)
     {
